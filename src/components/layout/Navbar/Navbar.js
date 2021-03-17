@@ -18,39 +18,39 @@ const Navbar = () => {
             <i className="material-icons" id="menu" >menu</i>
           </a>
           <ul className="right hide-on-med-and-down ">
-            <li>
-              <Link to="/Portfolio">Intro</Link>
-            </li>
-            <li>
-              <Link to="/about">My Profile</Link>
-            </li>
-            <li>
-              <Link to="/myportfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="/testimonial">Testimonials</Link>
-            </li>
+          <li>
+          <Link to="/home">Intro</Link>
+        </li>
+        <li>
+          <Link to="/profile">My Profile</Link>
+        </li>
+        <li>
+          <Link to="/portfolio">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/contactme">Contact</Link>
+        </li>
+        <li>
+          <Link to="/testimonials">Testimonials</Link>
+        </li>
           </ul>
         </div>
       </nav>
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <Link to="/Portfolio">Intro</Link>
+          <Link to="/home">Intro</Link>
         </li>
         <li>
-          <Link to="/about">My Profile</Link>
+          <Link to="/profile">My Profile</Link>
         </li>
         <li>
-          <Link to="/myportfolio">Portfolio</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contactme">Contact</Link>
         </li>
         <li>
-          <Link to="/testimonial">Testimonials</Link>
+          <Link to="/testimonials">Testimonials</Link>
         </li>
         <footer className="navbar-footer">
           <a

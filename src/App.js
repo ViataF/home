@@ -29,11 +29,11 @@ const App = () => {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path="/Portfolio" component={Intro} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/myportfolio" component={Portfolio} />
-          <Route exact path="/testimonial" component={Testimonials} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/home" component={Intro} />
+          <Route exact path="/profile" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/testimonials" component={Testimonials} />
+          <Route exact path="/contactme" component={Contact} />
           <Route component={NotFound} />
         </Switch>
         <Footer />

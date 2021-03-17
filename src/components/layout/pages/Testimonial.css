@@ -1,0 +1,21 @@
+h2.testimonial-heading {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 90px;
+  text-align: center;
+  font-family: cursive;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+
+.container-testimonials {
+  animation: fadeIn;
+  animation-duration: 2s;
+  background: linear-gradient(to bottom , cyan, pink);
+  padding: 0 50px 20px;
+}
+
+span.card-title.testimonial {
+  font-weight: bolder;
+}

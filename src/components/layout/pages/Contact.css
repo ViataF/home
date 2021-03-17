@@ -1,0 +1,58 @@
+.container-contact {
+  margin-top: 0px;
+  padding: 80px 0 100px;
+  margin-bottom: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(to right , cyan, pink);
+}
+
+h2.contact {
+  text-align: center;
+  animation: zoomIn;
+  animation-duration: 2s;
+  margin-top: 0em;
+  font-family: cursive;
+}
+form {
+  color: black;
+  padding: 34px;
+  margin: 40px auto 70px;
+  width: 70%;
+  border-radius: 3px;
+  border: solid black 5px;
+}
+label.form-labels {
+  color: #AD2667;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.waves-effect.waves-light.btn-large.link {
+  width: 175px;
+}
+
+.container-contact .card{
+  margin:.5rem 0 0;
+}
+
+.card.transparent.links {
+  display: flex;
+  justify-content: center;
+  padding: 30px ;
+}
+
+.btn.btn-small.submit{
+  background-color: #AD2667;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-action.links {
+    display: grid;
+    justify-content: center;
+  }
+}

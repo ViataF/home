@@ -1,0 +1,28 @@
+.footer-container{
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-heading{
+    color: rgb(240, 239, 239);
+    margin: 15px ;
+}
+
+.contact-holder{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.contact-holder li a {
+    font-size: 20px;
+    padding: 10px;
+    color: cyan;
+}
+
+@media only screen and (max-width: 400px){
+    .contact-holder li a {
+        font-size: 12px;
+        padding: 5px;
+ 
+    }
+}

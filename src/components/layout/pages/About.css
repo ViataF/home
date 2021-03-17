@@ -1,0 +1,443 @@
+/* Set a background color */
+.about {
+  background: linear-gradient(to top , cyan, pink);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+  padding-top: 90px;
+
+}
+
+/* Main heading */
+h2.heading {
+  border: white 3px solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: black;
+  text-align: center;
+  margin: 0 100px;
+  padding: 20px;
+  font-family: cursive;
+  animation: fadeIn;
+  animation-duration: 2s;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: #26a69a solid 2px;
+}
+/* Sub headings */
+h3.skills-heading.center,
+h3.passion {
+  color: #a3a60d;
+  -webkit-text-stroke: 2px black;
+  font-weight: bolder;
+}
+section.techPassion {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px 100px;
+  border: solid white 3px;
+  border-radius: 5px;
+  margin: 40px 100px;
+}
+p.initial-passion {
+  padding-bottom: 20px;
+  border-bottom: solid #26a69a;
+}
+
+/* Container for skill bars */
+section.skillbar {
+  padding: 10px;
+}
+
+.container-skillbar {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 20px;
+}
+
+.skills {
+  color: white; /* White text color */
+  height: 20px;
+  border-radius: 20px;
+  animation: swing;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  text-align: center;
+}
+
+.html {
+  width: 80%;
+  background-color: #4caf50;
+} /* Green */
+.css {
+  width: 75%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 55%;
+  background-color: #f44336;
+} /* Red */
+.python {
+  width: 65%;
+  background-color: rgba(228, 228, 5, 0.945);
+} /* Dark Grey */
+.node {
+  width: 60%;
+  background-color: pink;
+} /* Dark Grey */
+.git {
+  width: 70%;
+  background-color: brown;
+} /* Dark Grey */
+.agile {
+  width: 60%;
+  background-color: orange;
+} /* Dark Grey */
+.angular {
+  width: 55%;
+  background-color: #808080;
+} /* Dark Grey */
+
+p.profile {
+  margin: 30px;
+  text-align: center;
+  color: black;
+}
+p.language {
+  text-align: left;
+  font-weight: bolder;
+  color: black;
+}
+
+.content {
+  font-weight: bolder;
+  color: #b7b90e;
+  padding: 5px;
+}
+
+/* Main block on top */
+img.profile_img {
+  width: 30vw;
+  height: 100%;
+  border-radius: 50%;
+  margin: 20px;
+}
+section.details {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: inline-flex;
+  padding: 20px;
+  border-top: #26a69a solid 1px;
+  border-bottom: white solid 3px;
+  border-left: white solid 3px;
+  border-right: white solid 3px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 0 20px;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+ul.basic-details {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ul.basic-details li {
+  padding-bottom: 20px;
+  font-size: 18px;
+  border-bottom: #26a69a ridge;
+}
+ul.basic-details li span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+ul.basic-details li.name {
+  font-size: 45px;
+  font-family: cursive;
+  text-align: center;
+}
+
+/* education and work */
+span.card-title.activator {
+  font-weight: bolder;
+}
+
+.card.timeline-content {
+  margin: 30px;
+}
+
+span.card-title.company {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card.timeline-content .card-content{
+  padding: 50px 70px;
+}
+
+/* media queries */
+
+/* Small screens - phones etc */
+@media only screen and (max-width: 600px) {
+  /* Main block on top */
+  .card.timeline-content .card-content{
+    padding: 20px;
+  }
+  img.profile_img {
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+}
+
+/* tablet and bigger screen */
+
+@media only screen and (min-width: 600px) {
+  /* Main block on top */
+
+  img.profile_img {
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+
+}
+
+/* Laptop screen */
+@media only screen and (min-width: 768px) {
+  /* Main block on top */
+
+  img.profile_img {
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Main section on top */
+  /* Main block on top */
+
+  img.profile_img {
+    width: 30vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: flex;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 40px 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+  p.initial-passion {
+    font-size: 20px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+
+}

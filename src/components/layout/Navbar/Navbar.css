@@ -1,0 +1,43 @@
+#menu{
+  color: #AD2667;
+  font-size: xx-large;
+}
+
+ul#mobile-demo.sidenav {
+  width: 230px;
+}
+
+footer.navbar-footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 0;
+  font-size: 27px;
+}
+footer.navbar-footer a{
+  padding: 20px;
+}
+
+nav .nav-wrapper a.brand-logo {
+  font-size: 23px;
+  font-weight: 900;
+  color: #AD2667;
+  padding-left: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a{
+  color: black;
+  font-weight: 500;
+}
+header nav{
+  position: absolute;
+  background-color: rgb(255 255 255 / 72%);
+
+}
+
+@media only screen and (max-width: 400px) {
+  nav .nav-wrapper a.brand-logo {
+    font-size: 17px;
+    font-weight: 900;
+  }
+}

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://viataf.github.io/Portfolio",
+  "homepage": "https://myportfolio-viata.herokuapp.com/Portfolio",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://viataf.github.io/"
+  "proxy": "https://myportfolio-viata.herokuapp.com/"
 }
